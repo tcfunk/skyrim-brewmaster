@@ -1,6 +1,9 @@
 require 'csv'
 EFFECT_HEADERS = %w[PrimaryEffect SecondaryEffect TertiaryEffect QuaternaryEffect]
 
+Effect.delete_all
+Ingredient.delete_all
+
 csv_text = File.read('db/effects.csv')
 csv = CSV.parse(csv_text, :headers => true)
 csv.each do |row|
@@ -17,18 +20,17 @@ csv.each do |row|
   vals = hash.values.first.split('|')
     
   ingredient = Ingredient.new
-  ingredient.effect_ids = [1,2,3,4]
+  effects_array = []
 
   (0..(headers.length - 1)).each do |i|
     if headers[i].in? EFFECT_HEADERS
-      ingredient.effect_ids << Effect.find_by_name(vals[i]).id
-      puts ingredient.effect_ids.length
+      effect = Effect.find_by_name(vals[i])
+      effects_array << Effect.find_by_name(vals[i]).id unless effect.nil?
     else
       ingredient[headers[i]] = vals[i]
     end
   end
   
-  raise ingredient.effect_ids.inspect
-  
-#   Ingredient.create!(row.to_hash.symbolize_keys)
+  ingredient.effect_ids = effects_array
+  ingredient.save!
 end

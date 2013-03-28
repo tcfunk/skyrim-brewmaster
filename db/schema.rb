@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130328043325) do
+ActiveRecord::Schema.define(:version => 20130328052609) do
 
   create_table "effects", :force => true do |t|
     t.string   "name"
@@ -36,9 +36,8 @@ ActiveRecord::Schema.define(:version => 20130328043325) do
     t.decimal  "weight"
     t.integer  "value"
     t.string   "version"
-    t.datetime "created_at",        :null => false
-    t.datetime "updated_at",        :null => false
-    t.integer  "teriary_effect_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
 end
