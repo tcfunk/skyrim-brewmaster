@@ -19,7 +19,7 @@ csv.each do |row|
   headers = hash.keys.first.split('|')
   vals = hash.values.first.split('|')
     
-  ingredient = Ingredient.new
+  ihash = Hash.new
   effects_array = []
 
   (0..(headers.length - 1)).each do |i|
@@ -27,10 +27,18 @@ csv.each do |row|
       effect = Effect.find_by_name(vals[i])
       effects_array << Effect.find_by_name(vals[i]).id unless effect.nil?
     else
-      ingredient[headers[i]] = vals[i]
+      ihash[headers[i]] = vals[i]
     end
   end
   
+  ingredient = Ingredient.new(
+    name: ihash['Name'],
+    code: ihash['Code'],
+    description: ihash['Description'],
+    weight: ihash['Weight'],
+    value: ihash['Value'],
+    version: ihash['Version']
+  )
   ingredient.effect_ids = effects_array
   ingredient.save!
 end
