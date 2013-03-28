@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  skyrim_code: MyString
+  effect: MyString
+  magnitude: 1
+  value: 1
+
+two:
+  name: MyString
+  skyrim_code: MyString
+  effect: MyString
+  magnitude: 1
+  value: 1

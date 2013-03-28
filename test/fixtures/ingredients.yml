@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  code: MyString
+  primary_effect_id: 1
+  secondary_effect_id: 1
+  tertiary_effect_id: 1
+  quaternary_effect_id: 1
+  weight: 9.99
+  value: 1
+  version: MyString
+
+two:
+  name: MyString
+  code: MyString
+  primary_effect_id: 1
+  secondary_effect_id: 1
+  tertiary_effect_id: 1
+  quaternary_effect_id: 1
+  weight: 9.99
+  value: 1
+  version: MyString
