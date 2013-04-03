@@ -1,0 +1,1 @@
+SkyrimBrewmaster.ApplicationController = Ember.Controller.extend()

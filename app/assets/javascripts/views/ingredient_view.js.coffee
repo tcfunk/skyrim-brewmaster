@@ -1,0 +1,1 @@
+SkyrimBrewmaster.IngredientView = Ember.View.extend()

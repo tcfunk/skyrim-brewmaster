@@ -1,0 +1,1 @@
+SkyrimBrewmaster.EffectView = Ember.View.extend()
