@@ -1,23 +1,990 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
-
-one:
-  name: MyString
-  code: MyString
-  primary_effect_id: 1
-  secondary_effect_id: 1
-  tertiary_effect_id: 1
-  quaternary_effect_id: 1
-  weight: 9.99
+---
+ingredients_001:
+  id: 495
+  name: Abecean Longfin
+  code: 00106e1b
+  weight: 0.5
+  value: 15
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.557353'
+  updated_at: '2013-03-28 05:37:35.557353'
+  description: Collected by catching Abacean Longfish.
+ingredients_002:
+  id: 496
+  name: Ancestor Moth Wing
+  code: xx0059ba
+  weight: 0.1
+  value: 2
+  version: Dawnguard
+  created_at: '2013-03-28 05:37:35.568786'
+  updated_at: '2013-03-28 05:37:35.568786'
+  description: Collected by catching Ancestor Moths.
+ingredients_003:
+  id: 497
+  name: Bear Claws
+  code: 0006bc02
+  weight: 0.1
+  value: 2
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.578339'
+  updated_at: '2013-03-28 05:37:35.578339'
+  description: Collected from various types of dead Bears.
+ingredients_004:
+  id: 498
+  name: Bee
+  code: 000a9195
+  weight: 0.1
+  value: 3
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.588173'
+  updated_at: '2013-03-28 05:37:35.588173'
+  description: Collected from beehives and by catching Bees.
+ingredients_005:
+  id: 499
+  name: Beehive Husk
+  code: 000a9191
+  weight: 1
+  value: 5
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.598203'
+  updated_at: '2013-03-28 05:37:35.598203'
+  description: Collected from beehives.
+ingredients_006:
+  id: 500
+  name: Bleeding Crown
+  code: 0004da20
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.604433'
+  updated_at: '2013-03-28 05:37:35.604433'
+  description: Harvested from Bleeding Crown
+ingredients_007:
+  id: 501
+  name: Blisterwort
+  code: 0004da25
+  weight: 0.2
+  value: 12
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.613511'
+  updated_at: '2013-03-28 05:37:35.613511'
+  description: Harvested from Blisterwort mushrooms found in various caves.
+ingredients_008:
+  id: 502
+  name: Blue Butterfly Wing
+  code: 000727de
+  weight: 0.1
+  value: 2
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.622827'
+  updated_at: '2013-03-28 05:37:35.622827'
+  description: Collected by catching Blue Butterflies. Often found during daylight
+    hours near flowering plants.
+ingredients_009:
+  id: 503
+  name: Blue Dartwing
+  code: 000e4f0c
+  weight: 0.1
   value: 1
-  version: MyString
-
-two:
-  name: MyString
-  code: MyString
-  primary_effect_id: 1
-  secondary_effect_id: 1
-  tertiary_effect_id: 1
-  quaternary_effect_id: 1
-  weight: 9.99
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.632157'
+  updated_at: '2013-03-28 05:37:35.632157'
+  description: Collected by catching Dragonflies found near rivers and streams below
+    the snow line.
+ingredients_010:
+  id: 504
+  name: Blue Mountain Flower
+  code: 00077e1c
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.640005'
+  updated_at: '2013-03-28 05:37:35.640005'
+  description: Harvested from the blue variety of Mountain Flower
+ingredients_011:
+  id: 505
+  name: Bone Meal
+  code: 00034cdd
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.644947'
+  updated_at: '2013-03-28 05:37:35.644947'
+  description: Collected from undead such as skeletons
+ingredients_012:
+  id: 506
+  name: Briar Heart
+  code: 0003ad61
+  weight: 0.5
+  value: 20
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.652898'
+  updated_at: '2013-03-28 05:37:35.652898'
+  description: Collected from Forsworn Briarhearts.
+ingredients_013:
+  id: 507
+  name: Butterfly Wing
+  code: 000727e0
+  weight: 0.1
+  value: 3
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.661994'
+  updated_at: '2013-03-28 05:37:35.661994'
+  description: Collected from catching Monarch Butterflies. Often found during daylight
+    hours near flowering plants.
+ingredients_014:
+  id: 508
+  name: Canis Root
+  code: 0006abcb
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.668773'
+  updated_at: '2013-03-28 05:37:35.668773'
+  description: Harvested from Canis Root
+ingredients_015:
+  id: 509
+  name: Charred Skeever Hide
+  code: 00052695
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.674325'
+  updated_at: '2013-03-28 05:37:35.674325'
+  description: Food
+ingredients_016:
+  id: 510
+  name: Chaurus Eggs
+  code: 0003ad56
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.697598'
+  updated_at: '2013-03-28 05:37:35.697598'
+  description: Collected from Chaurus Egg Sacs
+ingredients_017:
+  id: 511
+  name: Chaurus Hunter Antennae
+  code: xx0183b7
+  weight: 0.1
+  value: 2
+  version: Dawnguard
+  created_at: '2013-03-28 05:37:35.707034'
+  updated_at: '2013-03-28 05:37:35.707034'
+  description: Collected from dead Chaurus Hunters and Chaurus Hunter Fledglings.
+ingredients_018:
+  id: 512
+  name: Chicken's Egg
+  code: 00023d77
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.714652'
+  updated_at: '2013-03-28 05:37:35.714652'
+  description: Food
+ingredients_019:
+  id: 513
+  name: Creep Cluster
+  code: 000b2183
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.720396'
+  updated_at: '2013-03-28 05:37:35.720396'
+  description: Harvested from Creep Cluster
+ingredients_020:
+  id: 514
+  name: Crimson Nirnroot
+  code: 000b701a
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.727223'
+  updated_at: '2013-03-28 05:37:35.727223'
+  description: Harvested from Crimson Nirnroot
+ingredients_021:
+  id: 515
+  name: Cyrodilic Spadetail
+  code: 00106e19
+  weight: 0.25
+  value: 15
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.736817'
+  updated_at: '2013-03-28 05:37:35.736817'
+  description: Collected by catching Cyrodilic Spadetail fish.
+ingredients_022:
+  id: 516
+  name: Daedra Heart
+  code: 0003ad5b
+  weight: 0.5
+  value: 250
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.748020'
+  updated_at: '2013-03-28 05:37:35.748020'
+  description: Collected from dead Dremora.
+ingredients_023:
+  id: 517
+  name: Deathbell
+  code: 000516c8
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.755017'
+  updated_at: '2013-03-28 05:37:35.755017'
+  description: Harvested from Deathbell
+ingredients_024:
+  id: 518
+  name: Dragon's Tongue
+  code: 000889a2
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.760964'
+  updated_at: '2013-03-28 05:37:35.760964'
+  description: Harvested from Dragon's Tongue
+ingredients_025:
+  id: 519
+  name: Dwarven Oil
+  code: 000f11c0
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.766479'
+  updated_at: '2013-03-28 05:37:35.766479'
+  description: Collected from destroyed Dwarven Automatons
+ingredients_026:
+  id: 520
+  name: Ectoplasm
+  code: 0003ad63
+  weight: 0.1
+  value: 25
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.775909'
+  updated_at: '2013-03-28 05:37:35.775909'
+  description: Collected from undead Ghosts.
+ingredients_027:
+  id: 521
+  name: Elves Ear
+  code: 00034d31
+  weight: 0.1
+  value: 10
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.786379'
+  updated_at: '2013-03-28 05:37:35.786379'
+  description: Harvested from Dried Elves Ear bunches found in homes and camps.
+ingredients_028:
+  id: 522
+  name: Eye of Sabre Cat
+  code: 0006bc07
+  weight: 0.1
+  value: 2
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.798720'
+  updated_at: '2013-03-28 05:37:35.798720'
+  description: Collected from dead Sabre Cats.
+ingredients_029:
+  id: 523
+  name: Falmer Ear
+  code: 0003ad5d
+  weight: 0.2
+  value: 10
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.810414'
+  updated_at: '2013-03-28 05:37:35.810414'
+  description: Collected from dead Falmer.
+ingredients_030:
+  id: 524
+  name: Fire Salts
+  code: 0003ad5e
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.818176'
+  updated_at: '2013-03-28 05:37:35.818176'
+  description: Collected from dead Flame Atronachs
+ingredients_031:
+  id: 525
+  name: Fly Amanita
+  code: 0004da00
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.825016'
+  updated_at: '2013-03-28 05:37:35.825016'
+  description: Collected from Fly Amanita mushrooms
+ingredients_032:
+  id: 526
+  name: Frost Mirriam
+  code: 00034d32
+  weight: 0.1
   value: 1
-  version: MyString
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.834038'
+  updated_at: '2013-03-28 05:37:35.834038'
+  description: Harvested from Dried Frost Mirriam bunches found in homes and camps.
+ingredients_033:
+  id: 527
+  name: Frost Salts
+  code: 0003ad5f
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.841711'
+  updated_at: '2013-03-28 05:37:35.841711'
+  description: Collected from dead Frost Atronachs
+ingredients_034:
+  id: 528
+  name: Garlic
+  code: 00034d22
+  weight: 0.25
+  value: 1
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.852126'
+  updated_at: '2013-03-28 05:37:35.852126'
+  description: Food. Can also be harvested from Garlic Braids.
+ingredients_035:
+  id: 529
+  name: Giant Lichen
+  code: 0007e8c1
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.859287'
+  updated_at: '2013-03-28 05:37:35.859287'
+  description: Harvested from Giant Lichen
+ingredients_036:
+  id: 530
+  name: Giant's Toe
+  code: 0003ad64
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.892330'
+  updated_at: '2013-03-28 05:37:35.892330'
+  description: Collected from dead Giants
+ingredients_037:
+  id: 531
+  name: Gleamblossom
+  code: xx00b097
+  weight: 0.1
+  value: 5
+  version: Dawnguard
+  created_at: '2013-03-28 05:37:35.901052'
+  updated_at: '2013-03-28 05:37:35.901052'
+  description: Harvested from the plant of the same name.
+ingredients_038:
+  id: 532
+  name: Glow Dust
+  code: 0003ad73
+  weight: 0.5
+  value: 20
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.910755'
+  updated_at: '2013-03-28 05:37:35.910755'
+  description: Collected from dead Wisps and Wispmothers.
+ingredients_039:
+  id: 533
+  name: Glowing Mushroom
+  code: 0007ee01
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.919372'
+  updated_at: '2013-03-28 05:37:35.919372'
+  description: Harvested from Glowing Mushrooms
+ingredients_040:
+  id: 534
+  name: Grass Pod
+  code: 00083e64
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:35.924755'
+  updated_at: '2013-03-28 05:37:35.924755'
+  description: Harvested from Spiky Grass
+ingredients_041:
+  id: 535
+  name: Hagraven Claw
+  code: 0006b689
+  weight: 0.25
+  value: 20
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.934646'
+  updated_at: '2013-03-28 05:37:35.934646'
+  description: Collected from dead Hagravens.
+ingredients_042:
+  id: 536
+  name: Hagraven Feathers
+  code: 0003ad66
+  weight: 0.1
+  value: 20
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.944654'
+  updated_at: '2013-03-28 05:37:35.944654'
+  description: Collected from dead Hagravens. Can also be found scattered around their
+    sleeping areas.
+ingredients_043:
+  id: 537
+  name: Hanging Moss
+  code: 00057f91
+  weight: 0.25
+  value: 1
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.954249'
+  updated_at: '2013-03-28 05:37:35.954249'
+  description: Harvested from Hanging Moss.
+ingredients_044:
+  id: 538
+  name: Hawk Beak
+  code: 000e7ebc
+  weight: 0.25
+  value: 15
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.963664'
+  updated_at: '2013-03-28 05:37:35.963664'
+  description: Collected from dead Hawks.
+ingredients_045:
+  id: 539
+  name: Hawk Feathers
+  code: 000e7ed0
+  weight: 0.1
+  value: 15
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.973119'
+  updated_at: '2013-03-28 05:37:35.973119'
+  description: Collected from dead Hawks.
+ingredients_046:
+  id: 540
+  name: Hawk's Egg
+  code: xx00f1cc
+  weight: 0.5
+  value: 5
+  version: Hearthfire
+  created_at: '2013-03-28 05:37:35.982948'
+  updated_at: '2013-03-28 05:37:35.982948'
+  description: Collected from Hawk nests.
+ingredients_047:
+  id: 541
+  name: Histcarp
+  code: 00106e18
+  weight: 0.25
+  value: 6
+  version: Skyrim
+  created_at: '2013-03-28 05:37:35.992594'
+  updated_at: '2013-03-28 05:37:35.992594'
+  description: Collected by catching Histcarp fish.
+ingredients_048:
+  id: 542
+  name: Honeycomb
+  code: 000b08c5
+  weight: 1
+  value: 5
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.001510'
+  updated_at: '2013-03-28 05:37:36.001510'
+  description: Food. Collected from beehives.
+ingredients_049:
+  id: 543
+  name: Human Flesh
+  code: 001016b3
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.007524'
+  updated_at: '2013-03-28 05:37:36.007524'
+  description: Cannot be harvested or collected; with the Dawnguard plug-in installed
+ingredients_050:
+  id: 544
+  name: Human Heart
+  code: 000b18cd
+  weight: 1
+  value: 0
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.016294'
+  updated_at: '2013-03-28 05:37:36.016294'
+  description: Cannot be harvested or collected; limited number of samples available.
+ingredients_051:
+  id: 545
+  name: Ice Wraith Teeth
+  code: 0003ad6a
+  weight: 0.25
+  value: 30
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.025663'
+  updated_at: '2013-03-28 05:37:36.025663'
+  description: Collected from dead Ice Wraiths.
+ingredients_052:
+  id: 546
+  name: Imp Stool
+  code: 0004da23
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.049537'
+  updated_at: '2013-03-28 05:37:36.049537'
+  description: Harvested from Imp Stool mushrooms
+ingredients_053:
+  id: 547
+  name: Jazbay Grapes
+  code: 0006ac4a
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.055173'
+  updated_at: '2013-03-28 05:37:36.055173'
+  description: Harvested from Jazbay vines
+ingredients_054:
+  id: 548
+  name: Juniper Berries
+  code: 0005076e
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.062161'
+  updated_at: '2013-03-28 05:37:36.062161'
+  description: Harvested from Juniper shrubs
+ingredients_055:
+  id: 549
+  name: Large Antlers
+  code: 0006bc0a
+  weight: 0.1
+  value: 2
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.072355'
+  updated_at: '2013-03-28 05:37:36.072355'
+  description: Collected from dead male Elk.
+ingredients_056:
+  id: 550
+  name: Lavender
+  code: 00045c28
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.080315'
+  updated_at: '2013-03-28 05:37:36.080315'
+  description: Harvested from Lavender
+ingredients_057:
+  id: 551
+  name: Luna Moth Wing
+  code: 000727df
+  weight: 0.1
+  value: 5
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.089628'
+  updated_at: '2013-03-28 05:37:36.089628'
+  description: Collected by catching Luna Moths. Often found near flowers after dark.
+ingredients_058:
+  id: 552
+  name: Moon Sugar
+  code: 000d8e3f
+  weight: 0.25
+  value: 50
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.100199'
+  updated_at: '2013-03-28 05:37:36.100199'
+  description: Cannot be collected or harvested. Can be purchased from the Khajiit
+    Traders.
+ingredients_059:
+  id: 553
+  name: Mora Tapinella
+  code: 000ec870
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.107328'
+  updated_at: '2013-03-28 05:37:36.107328'
+  description: Harvested from Mora Tapinella mushrooms
+ingredients_060:
+  id: 554
+  name: Mudcrab Chitin
+  code: 0006bc00
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.113839'
+  updated_at: '2013-03-28 05:37:36.113839'
+  description: Collected from dead Mudcrabs
+ingredients_061:
+  id: 555
+  name: Namira's Rot
+  code: 0004da24
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.118993'
+  updated_at: '2013-03-28 05:37:36.118993'
+  description: Harvested from Namira's Rot mushrooms
+ingredients_062:
+  id: 556
+  name: Nightshade
+  code: 0002f44c
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.125943'
+  updated_at: '2013-03-28 05:37:36.125943'
+  description: Harvested from Nightshade
+ingredients_063:
+  id: 557
+  name: Nirnroot
+  code: 00059b86
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.132158'
+  updated_at: '2013-03-28 05:37:36.132158'
+  description: Harvested from Nirnroot
+ingredients_064:
+  id: 558
+  name: Nordic Barnacle
+  code: 0007edf5
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.137927'
+  updated_at: '2013-03-28 05:37:36.137927'
+  description: Harvested from Nordic Barnacle Clusters
+ingredients_065:
+  id: 559
+  name: Orange Dartwing
+  code: 000bb956
+  weight: 0.1
+  value: 1
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.146735'
+  updated_at: '2013-03-28 05:37:36.146735'
+  description: Collected by catching Dragonflies found near rivers and streams below
+    the snow line.
+ingredients_066:
+  id: 560
+  name: Pearl
+  code: 000854fe
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.154090'
+  updated_at: '2013-03-28 05:37:36.154090'
+  description: Cannot be harvested or collected in the original version of the game;
+    only readily available after the Merchant perk has been unlocked. With Dragonborn
+ingredients_067:
+  id: 561
+  name: Pine Thrush Egg
+  code: 00023d6f
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.160689'
+  updated_at: '2013-03-28 05:37:36.160689'
+  description: Harvested from bird nests in forested regions
+ingredients_068:
+  id: 562
+  name: Poison Bloom
+  code: xx0185fb
+  weight: 0.25
+  value: 5
+  version: Dawnguard
+  created_at: '2013-03-28 05:37:36.169815'
+  updated_at: '2013-03-28 05:37:36.169815'
+  description: Harvested from the plant of the same name.
+ingredients_069:
+  id: 563
+  name: Powdered Mammoth Tusk
+  code: 0006bc10
+  weight: 0.1
+  value: 2
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.180187'
+  updated_at: '2013-03-28 05:37:36.180187'
+  description: Cannot be harvested or collected; only readily available after the
+    Merchant perk has been unlocked.
+ingredients_070:
+  id: 564
+  name: Purple Mountain Flower
+  code: 00077e1e
+  weight: 0.1
+  value: 2
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.191505'
+  updated_at: '2013-03-28 05:37:36.191505'
+  description: Harvested from the purple variety of Mountain Flower.
+ingredients_071:
+  id: 565
+  name: Red Mountain Flower
+  code: 00077e1d
+  weight: 0.1
+  value: 2
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.203124'
+  updated_at: '2013-03-28 05:37:36.203124'
+  description: Harvested from the red variety of Mountain Flower.
+ingredients_072:
+  id: 566
+  name: River Betty
+  code: 00106e1a
+  weight: 0.25
+  value: 15
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.232872'
+  updated_at: '2013-03-28 05:37:36.232872'
+  description: Collected by catching River Betty fish.
+ingredients_073:
+  id: 567
+  name: Rock Warbler Egg
+  code: 0007e8c8
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.241401'
+  updated_at: '2013-03-28 05:37:36.241401'
+  description: Harvested from bird nests in rocky regions
+ingredients_074:
+  id: 568
+  name: Sabre Cat Tooth
+  code: 0006bc04
+  weight: 0.1
+  value: 2
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.250884'
+  updated_at: '2013-03-28 05:37:36.250884'
+  description: Collected from dead Sabre cats.
+ingredients_075:
+  id: 569
+  name: Salmon Roe
+  code: xx003545
+  weight: 0.2
+  value: 5
+  version: Hearthfire
+  created_at: '2013-03-28 05:37:36.261230'
+  updated_at: '2013-03-28 05:37:36.261230'
+  description: Harvested from jumping Salmon.
+ingredients_076:
+  id: 570
+  name: Salt Pile
+  code: 00034cdf
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.269268'
+  updated_at: '2013-03-28 05:37:36.269268'
+  description: Food. Cannot be harvested or collected
+ingredients_077:
+  id: 571
+  name: Scaly Pholiota
+  code: 0006f950
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.274766'
+  updated_at: '2013-03-28 05:37:36.274766'
+  description: Harvested from Scaly Pholiota mushrooms
+ingredients_078:
+  id: 572
+  name: Silverside Perch
+  code: 00106e1c
+  weight: 0.25
+  value: 15
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.283202'
+  updated_at: '2013-03-28 05:37:36.283202'
+  description: Collected by catching Silverside Perch fish.
+ingredients_079:
+  id: 573
+  name: Skeever Tail
+  code: 0003ad6f
+  weight: 0.2
+  value: 3
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.295220'
+  updated_at: '2013-03-28 05:37:36.295220'
+  description: Collected from dead Skeevers.
+ingredients_080:
+  id: 574
+  name: Slaughterfish Egg
+  code: 0007e8c5
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.303083'
+  updated_at: '2013-03-28 05:37:36.303083'
+  description: Collected from Slaughterfish Egg Nests
+ingredients_081:
+  id: 575
+  name: Slaughterfish Scales
+  code: 0003ad70
+  weight: 0.1
+  value: 3
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.313111'
+  updated_at: '2013-03-28 05:37:36.313111'
+  description: Collected from dead Slaughterfish.
+ingredients_082:
+  id: 576
+  name: Small Antlers
+  code: 0006bc0b
+  weight: 0.1
+  value: 2
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.323779'
+  updated_at: '2013-03-28 05:37:36.323779'
+  description: Collected from dead female Elk.
+ingredients_083:
+  id: 577
+  name: Small Pearl
+  code: 00085500
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.360496'
+  updated_at: '2013-03-28 05:37:36.360496'
+  description: Cannot be harvested or collected in the original version of the game;
+    only readily available after the Merchant perk has been unlocked. With Dragonborn
+ingredients_084:
+  id: 578
+  name: Snowberries
+  code: 0001b3bd
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.366308'
+  updated_at: '2013-03-28 05:37:36.366308'
+  description: Harvested from Snowberry bushes
+ingredients_085:
+  id: 579
+  name: Spider Egg
+  code: 0009151b
+  weight: 0.2
+  value: 5
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.375189'
+  updated_at: '2013-03-28 05:37:36.375189'
+  description: Collected from spider Egg Sacs and Web Sacs.
+ingredients_086:
+  id: 580
+  name: Spriggan Sap
+  code: 00063b5f
+  weight: 0.2
+  value: 15
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.384788'
+  updated_at: '2013-03-28 05:37:36.384788'
+  description: Cannot be harvested or collected; best source is merchants.
+ingredients_087:
+  id: 581
+  name: Swamp Fungal Pod
+  code: 0007e8b7
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.391376'
+  updated_at: '2013-03-28 05:37:36.391376'
+  description: Harvested from Swamp Fungal Pod
+ingredients_088:
+  id: 582
+  name: Taproot
+  code: 0003ad71
+  weight: 0.5
+  value: 15
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.400166'
+  updated_at: '2013-03-28 05:37:36.400166'
+  description: Collected from dead Spriggans.
+ingredients_089:
+  id: 583
+  name: Thistle Branch
+  code: 000134aa
+  weight: 0.1
+  value: 1
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.409196'
+  updated_at: '2013-03-28 05:37:36.409196'
+  description: Harvested from Thistle.
+ingredients_090:
+  id: 584
+  name: Torchbug Thorax
+  code: 0004da73
+  weight: 0.1
+  value: 1
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.419116'
+  updated_at: '2013-03-28 05:37:36.419116'
+  description: Collected by catching Torchbugs. Found below the snowline after dark.
+ingredients_091:
+  id: 585
+  name: Troll Fat
+  code: 0003ad72
+  weight: 1
+  value: 15
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.428507'
+  updated_at: '2013-03-28 05:37:36.428507'
+  description: Collected from dead Trolls.
+ingredients_092:
+  id: 586
+  name: Tundra Cotton
+  code: 0003f7f8
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.435596'
+  updated_at: '2013-03-28 05:37:36.435596'
+  description: Harvested from Tundra Cotton
+ingredients_093:
+  id: 587
+  name: Vampire Dust
+  code: 0003ad76
+  weight: 0.2
+  value: 25
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.444234'
+  updated_at: '2013-03-28 05:37:36.444234'
+  description: Collected from dead Vampires.
+ingredients_094:
+  id: 588
+  name: Void Salts
+  code: 0003ad60
+  weight: 0.2
+  value: 125
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.453504'
+  updated_at: '2013-03-28 05:37:36.453504'
+  description: Collected from dead Storm Atronachs.
+ingredients_095:
+  id: 589
+  name: Wheat
+  code: 0004b0ba
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.460300'
+  updated_at: '2013-03-28 05:37:36.460300'
+  description: Food. Harvested from wheat bushels
+ingredients_096:
+  id: 590
+  name: White Cap
+  code: 0004da22
+  weight: 
+  value: 
+  version: 
+  created_at: '2013-03-28 05:37:36.465499'
+  updated_at: '2013-03-28 05:37:36.465499'
+  description: Harvested from White Cap mushrooms
+ingredients_097:
+  id: 591
+  name: Wisp Wrappings
+  code: 0006bc0e
+  weight: 0.1
+  value: 2
+  version: Skyrim
+  created_at: '2013-03-28 05:37:36.473097'
+  updated_at: '2013-03-28 05:37:36.473097'
+  description: Collected from dead Wispmothers.
+ingredients_098:
+  id: 592
+  name: Yellow Mountain Flower
+  code: xx002a78
+  weight: 0.1
+  value: 2
+  version: Dawnguard
+  created_at: '2013-03-28 05:37:36.482220'
+  updated_at: '2013-03-28 05:37:36.482220'
+  description: Harvested from the yellow variety of Mountain Flower.

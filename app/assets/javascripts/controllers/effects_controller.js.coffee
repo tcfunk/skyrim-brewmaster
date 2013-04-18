@@ -1,0 +1,1 @@
+SkyrimBrewmaster.EffectsController = Ember.Controller.extend()

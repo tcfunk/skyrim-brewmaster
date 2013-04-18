@@ -1,15 +1,496 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
-
-one:
-  name: MyString
-  skyrim_code: MyString
-  effect: MyString
+---
+effects_001:
+  id: 3521
+  name: Cure Disease
+  skyrim_code: 000ae723
+  effect: Cures all diseases
+  magnitude: 5
+  value: 21
+  created_at: '2013-03-28 05:37:35.276187'
+  updated_at: '2013-03-28 05:37:35.276187'
+effects_002:
+  id: 3522
+  name: Damage Health
+  skyrim_code: 0003eb42
+  effect: Causes poison damage
+  magnitude: 2
+  value: 3
+  created_at: '2013-03-28 05:37:35.285383'
+  updated_at: '2013-03-28 05:37:35.285383'
+effects_003:
+  id: 3523
+  name: Damage Magicka
+  skyrim_code: 0003a2b6
+  effect: Drains the target's Magicka
+  magnitude: 3
+  value: 52
+  created_at: '2013-03-28 05:37:35.288916'
+  updated_at: '2013-03-28 05:37:35.288916'
+effects_004:
+  id: 3524
+  name: Damage Magicka Regen
+  skyrim_code: 00073f2b
+  effect: Decrease target's Magicka regeneration by 100%
+  magnitude: 5
+  value: 265
+  created_at: '2013-03-28 05:37:35.292093'
+  updated_at: '2013-03-28 05:37:35.292093'
+effects_005:
+  id: 3525
+  name: Damage Stamina
+  skyrim_code: 0003a2c6
+  effect: Drain the target's Stamina
+  magnitude: 3
+  value: 43
+  created_at: '2013-03-28 05:37:35.295339'
+  updated_at: '2013-03-28 05:37:35.295339'
+effects_006:
+  id: 3526
+  name: Damage Stamina Regen
+  skyrim_code: 00073f2c
+  effect: Decrease target's Stamina regeneration by 100%
+  magnitude: 5
+  value: 159
+  created_at: '2013-03-28 05:37:35.298958'
+  updated_at: '2013-03-28 05:37:35.298958'
+effects_007:
+  id: 3527
+  name: Fear
+  skyrim_code: 00073f20
+  effect: Creatures and people flee for 30 seconds
   magnitude: 1
-  value: 1
-
-two:
-  name: MyString
-  skyrim_code: MyString
-  effect: MyString
+  value: 120
+  created_at: '2013-03-28 05:37:35.301947'
+  updated_at: '2013-03-28 05:37:35.301947'
+effects_008:
+  id: 3528
+  name: Fortify Alteration
+  skyrim_code: 0003eb24
+  effect: Alteration spells last longer for 60 seconds
+  magnitude: 4
+  value: 47
+  created_at: '2013-03-28 05:37:35.305362'
+  updated_at: '2013-03-28 05:37:35.305362'
+effects_009:
+  id: 3529
+  name: Fortify Barter
+  skyrim_code: 0003eb23
+  effect: You haggle for better prices for 30 seconds
   magnitude: 1
-  value: 1
+  value: 48
+  created_at: '2013-03-28 05:37:35.308347'
+  updated_at: '2013-03-28 05:37:35.308347'
+effects_010:
+  id: 3530
+  name: Fortify Block
+  skyrim_code: 0003eb1c
+  effect: Blocking absorbs more damage for 60 seconds
+  magnitude: 4
+  value: 118
+  created_at: '2013-03-28 05:37:35.311472'
+  updated_at: '2013-03-28 05:37:35.311472'
+effects_011:
+  id: 3531
+  name: Fortify Carry Weight
+  skyrim_code: 0003eb01
+  effect: Carrying capacity increases for 300 seconds
+  magnitude: 4
+  value: 208
+  created_at: '2013-03-28 05:37:35.314843'
+  updated_at: '2013-03-28 05:37:35.314843'
+effects_012:
+  id: 3532
+  name: Fortify Conjuration
+  skyrim_code: 0003eb25
+  effect: Conjuration spells last longer for 60 seconds
+  magnitude: 5
+  value: 75
+  created_at: '2013-03-28 05:37:35.317940'
+  updated_at: '2013-03-28 05:37:35.317940'
+effects_013:
+  id: 3533
+  name: Fortify Destruction
+  skyrim_code: 0003eb26
+  effect: Destruction spells deal more damage for 60 seconds
+  magnitude: 5
+  value: 151
+  created_at: '2013-03-28 05:37:35.322007'
+  updated_at: '2013-03-28 05:37:35.322007'
+effects_014:
+  id: 3534
+  name: Fortify Enchanting
+  skyrim_code: 0003eb29
+  effect: For 30 seconds items are enchanted stronger
+  magnitude: 1
+  value: 14
+  created_at: '2013-03-28 05:37:35.325026'
+  updated_at: '2013-03-28 05:37:35.325026'
+effects_015:
+  id: 3535
+  name: Fortify Health
+  skyrim_code: 0003eaf3
+  effect: Health is increased for 60(300) seconds
+  magnitude: 4
+  value: 82
+  created_at: '2013-03-28 05:37:35.328337'
+  updated_at: '2013-03-28 05:37:35.328337'
+effects_016:
+  id: 3536
+  name: Fortify Heavy Armor
+  skyrim_code: 0003eb1e
+  effect: Increase Heavy Armor skill for 60 seconds
+  magnitude: 2
+  value: 55
+  created_at: '2013-03-28 05:37:35.331615'
+  updated_at: '2013-03-28 05:37:35.331615'
+effects_017:
+  id: 3537
+  name: Fortify Illusion
+  skyrim_code: 0003eb27
+  effect: Illusion spells are stronger for 60 seconds
+  magnitude: 4
+  value: 94
+  created_at: '2013-03-28 05:37:35.335275'
+  updated_at: '2013-03-28 05:37:35.335275'
+effects_018:
+  id: 3538
+  name: Fortify Light Armor
+  skyrim_code: 0003eb1f
+  effect: Increases Light Armor skill for 60 seconds
+  magnitude: 2
+  value: 55
+  created_at: '2013-03-28 05:37:35.338788'
+  updated_at: '2013-03-28 05:37:35.338788'
+effects_019:
+  id: 3539
+  name: Fortify Lockpicking
+  skyrim_code: 0003eb21
+  effect: Lockpicking is easier for 30 seconds
+  magnitude: 2
+  value: 25
+  created_at: '2013-03-28 05:37:35.341670'
+  updated_at: '2013-03-28 05:37:35.341670'
+effects_020:
+  id: 3540
+  name: Fortify Magicka
+  skyrim_code: 0003eaf8
+  effect: Magicka is increased for 60 seconds
+  magnitude: 4
+  value: 71
+  created_at: '2013-03-28 05:37:35.345141'
+  updated_at: '2013-03-28 05:37:35.345141'
+effects_021:
+  id: 3541
+  name: Fortify Marksman
+  skyrim_code: 0003eb1b
+  effect: Bows do more damage for 60 seconds
+  magnitude: 4
+  value: 118
+  created_at: '2013-03-28 05:37:35.349169'
+  updated_at: '2013-03-28 05:37:35.349169'
+effects_022:
+  id: 3542
+  name: Fortify One Handed
+  skyrim_code: 0003eb19
+  effect: One-handed weapons do more damage for 60 seconds
+  magnitude: 4
+  value: 118
+  created_at: '2013-03-28 05:37:35.352561'
+  updated_at: '2013-03-28 05:37:35.352561'
+effects_023:
+  id: 3543
+  name: Fortify Pickpocket
+  skyrim_code: 0003eb20
+  effect: Pickpocketing is easier for 60 seconds
+  magnitude: 4
+  value: 118
+  created_at: '2013-03-28 05:37:35.356203'
+  updated_at: '2013-03-28 05:37:35.356203'
+effects_024:
+  id: 3544
+  name: Fortify Restoration
+  skyrim_code: 0003eb28
+  effect: Restoration spells are stronger for 60 seconds
+  magnitude: 4
+  value: 118
+  created_at: '2013-03-28 05:37:35.359424'
+  updated_at: '2013-03-28 05:37:35.359424'
+effects_025:
+  id: 3545
+  name: Fortify Smithing
+  skyrim_code: 0003eb1d
+  effect: For 30 seconds weapon and armor improving is better
+  magnitude: 4
+  value: 82
+  created_at: '2013-03-28 05:37:35.362829'
+  updated_at: '2013-03-28 05:37:35.362829'
+effects_026:
+  id: 3546
+  name: Fortify Sneak
+  skyrim_code: 0003eb22
+  effect: You are harder to detect for 60 seconds
+  magnitude: 4
+  value: 118
+  created_at: '2013-03-28 05:37:35.366684'
+  updated_at: '2013-03-28 05:37:35.366684'
+effects_027:
+  id: 3547
+  name: Fortify Stamina
+  skyrim_code: 0003eaf9
+  effect: Stamina is increased for 60 seconds
+  magnitude: 4
+  value: 71
+  created_at: '2013-03-28 05:37:35.370727'
+  updated_at: '2013-03-28 05:37:35.370727'
+effects_028:
+  id: 3548
+  name: Fortify Two Handed
+  skyrim_code: 0003eb1a
+  effect: Two-handed weapons do more damage for 60 seconds
+  magnitude: 4
+  value: 118
+  created_at: '2013-03-28 05:37:35.373915'
+  updated_at: '2013-03-28 05:37:35.373915'
+effects_029:
+  id: 3549
+  name: Frenzy
+  skyrim_code: 00073f29
+  effect: Creatures and people will attack anything nearby for 10 seconds
+  magnitude: 1
+  value: 107
+  created_at: '2013-03-28 05:37:35.377489'
+  updated_at: '2013-03-28 05:37:35.377489'
+effects_030:
+  id: 3550
+  name: Invisibility
+  skyrim_code: 0003eb3d
+  effect: Invisibility
+  magnitude: 4
+  value: 261
+  created_at: '2013-03-28 05:37:35.380785'
+  updated_at: '2013-03-28 05:37:35.380785'
+effects_031:
+  id: 3551
+  name: Lingering Damage Health
+  skyrim_code: 0010aa4a
+  effect: Causes poison damage for 10 seconds
+  magnitude: 1
+  value: 86
+  created_at: '2013-03-28 05:37:35.384544'
+  updated_at: '2013-03-28 05:37:35.384544'
+effects_032:
+  id: 3552
+  name: Lingering Damage Magicka
+  skyrim_code: 0010de5f
+  effect: Drains the target's Magicka for 10 seconds
+  magnitude: 1
+  value: 71
+  created_at: '2013-03-28 05:37:35.388912'
+  updated_at: '2013-03-28 05:37:35.388912'
+effects_033:
+  id: 3553
+  name: Lingering Damage Stamina
+  skyrim_code: 0010de5e
+  effect: Drain the target's Stamina for 10 seconds
+  magnitude: 1
+  value: 12
+  created_at: '2013-03-28 05:37:35.392457'
+  updated_at: '2013-03-28 05:37:35.392457'
+effects_034:
+  id: 3554
+  name: Paralysis
+  skyrim_code: 00073f30
+  effect: Target is paralyzed
+  magnitude: 1
+  value: 285
+  created_at: '2013-03-28 05:37:35.396235'
+  updated_at: '2013-03-28 05:37:35.396235'
+effects_035:
+  id: 3555
+  name: Ravage Health
+  skyrim_code: 00073f26
+  effect: Causes concentrated poison damage
+  magnitude: 2
+  value: 6
+  created_at: '2013-03-28 05:37:35.400070'
+  updated_at: '2013-03-28 05:37:35.400070'
+effects_036:
+  id: 3556
+  name: Ravage Magicka
+  skyrim_code: 00073f27
+  effect: Concentrated poison damages Magicka
+  magnitude: 2
+  value: 15
+  created_at: '2013-03-28 05:37:35.403417'
+  updated_at: '2013-03-28 05:37:35.403417'
+effects_037:
+  id: 3557
+  name: Ravage Stamina
+  skyrim_code: 00073f23
+  effect: Concentrated poison damages Stamina
+  magnitude: 2
+  value: 24
+  created_at: '2013-03-28 05:37:35.406612'
+  updated_at: '2013-03-28 05:37:35.406612'
+effects_038:
+  id: 3558
+  name: Regenerate Health
+  skyrim_code: 0003eb06
+  effect: Health regenerates faster for 300 seconds
+  magnitude: 5
+  value: 177
+  created_at: '2013-03-28 05:37:35.410718'
+  updated_at: '2013-03-28 05:37:35.410718'
+effects_039:
+  id: 3559
+  name: Regenerate Magicka
+  skyrim_code: 0003eb07
+  effect: Magicka regenerates faster for 300 seconds
+  magnitude: 5
+  value: 177
+  created_at: '2013-03-28 05:37:35.413713'
+  updated_at: '2013-03-28 05:37:35.413713'
+effects_040:
+  id: 3560
+  name: Regenerate Stamina
+  skyrim_code: 0003eb08
+  effect: Stamina regenerates faster for 300 seconds
+  magnitude: 5
+  value: 177
+  created_at: '2013-03-28 05:37:35.416950'
+  updated_at: '2013-03-28 05:37:35.416950'
+effects_041:
+  id: 3561
+  name: Resist Fire
+  skyrim_code: 0003eaea
+  effect: Resist fire damage for 60 seconds
+  magnitude: 3
+  value: 86
+  created_at: '2013-03-28 05:37:35.420751'
+  updated_at: '2013-03-28 05:37:35.420751'
+effects_042:
+  id: 3562
+  name: Resist Frost
+  skyrim_code: 0003eaeb
+  effect: Resist frost damage for 60 seconds
+  magnitude: 3
+  value: 86
+  created_at: '2013-03-28 05:37:35.424288'
+  updated_at: '2013-03-28 05:37:35.424288'
+effects_043:
+  id: 3563
+  name: Resist Magic
+  skyrim_code: 00039e51
+  effect: Resist magic for 60 seconds
+  magnitude: 1
+  value: 51
+  created_at: '2013-03-28 05:37:35.427819'
+  updated_at: '2013-03-28 05:37:35.427819'
+effects_044:
+  id: 3564
+  name: Resist Poison
+  skyrim_code: 00090041
+  effect: Resist poison for 60 seconds
+  magnitude: 4
+  value: 118
+  created_at: '2013-03-28 05:37:35.432088'
+  updated_at: '2013-03-28 05:37:35.432088'
+effects_045:
+  id: 3565
+  name: Resist Shock
+  skyrim_code: 0003eaec
+  effect: Resist shock damage for 60 seconds
+  magnitude: 3
+  value: 86
+  created_at: '2013-03-28 05:37:35.435973'
+  updated_at: '2013-03-28 05:37:35.435973'
+effects_046:
+  id: 3566
+  name: Restore Health
+  skyrim_code: 0003eb15
+  effect: Restore Health
+  magnitude: 5
+  value: 21
+  created_at: '2013-03-28 05:37:35.439232'
+  updated_at: '2013-03-28 05:37:35.439232'
+effects_047:
+  id: 3567
+  name: Restore Magicka
+  skyrim_code: 0003eb17
+  effect: Restore Magicka
+  magnitude: 5
+  value: 25
+  created_at: '2013-03-28 05:37:35.442448'
+  updated_at: '2013-03-28 05:37:35.442448'
+effects_048:
+  id: 3568
+  name: Restore Stamina
+  skyrim_code: 0003eb16
+  effect: Restore Stamina
+  magnitude: 5
+  value: 25
+  created_at: '2013-03-28 05:37:35.445992'
+  updated_at: '2013-03-28 05:37:35.445992'
+effects_049:
+  id: 3569
+  name: Slow
+  skyrim_code: 00073f25
+  effect: Target moves at 50% speed
+  magnitude: 5
+  value: 247
+  created_at: '2013-03-28 05:37:35.449155'
+  updated_at: '2013-03-28 05:37:35.449155'
+effects_050:
+  id: 3570
+  name: Waterbreathing
+  skyrim_code: 0003ac2d
+  effect: Can breath underwater
+  magnitude: 5
+  value: 100
+  created_at: '2013-03-28 05:37:35.452478'
+  updated_at: '2013-03-28 05:37:35.452478'
+effects_051:
+  id: 3571
+  name: Weakness to Fire
+  skyrim_code: 00073f2d
+  effect: Target is weaker to fire damage for 30 seconds
+  magnitude: 3
+  value: 48
+  created_at: '2013-03-28 05:37:35.456240'
+  updated_at: '2013-03-28 05:37:35.456240'
+effects_052:
+  id: 3572
+  name: Weakness to Frost
+  skyrim_code: 00073f2e
+  effect: Target is weaker to frost damage for 30 seconds
+  magnitude: 3
+  value: 40
+  created_at: '2013-03-28 05:37:35.460084'
+  updated_at: '2013-03-28 05:37:35.460084'
+effects_053:
+  id: 3573
+  name: Weakness to Magic
+  skyrim_code: 00073f51
+  effect: Target is weaker to magic for 30 seconds
+  magnitude: 2
+  value: 51
+  created_at: '2013-03-28 05:37:35.463698'
+  updated_at: '2013-03-28 05:37:35.463698'
+effects_054:
+  id: 3574
+  name: Weakness to Poison
+  skyrim_code: 00090042
+  effect: Target is weaker to poison damage for 30 seconds
+  magnitude: 2
+  value: 51
+  created_at: '2013-03-28 05:37:35.467758'
+  updated_at: '2013-03-28 05:37:35.467758'
+effects_055:
+  id: 3575
+  name: Weakness to Shock
+  skyrim_code: 00073f2f
+  effect: Target is weaker to shock damage for 30 seconds
+  magnitude: 3
+  value: 56
+  created_at: '2013-03-28 05:37:35.488462'
+  updated_at: '2013-03-28 05:37:35.488462'
